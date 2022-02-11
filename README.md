@@ -17,7 +17,7 @@ Run the following commands:
 
 * `$ npm install` to install project dependencies
 * `$ cdk synth`  to emit the synthesized CloudFormation template
-* `$ sam local start-api -t ./cdk.out/APIStack.template.json` to run the API gateway locally. 
+* `$ sam local start-api -t ./cdk.out/APIStack.template.json` to run the API gateway locally
  
 NOTE: On Windows, depending on your shell, you may have to use the full path.
  
