@@ -1,10 +1,10 @@
-# AWS CDK API gateway boilerplate with TypeScript
+# AWS CDK API Gateway Boilerplate with TypeScript
 
 This is a project for TypeScript development with AWS CDK and SAM. It contains boilerplate for an API gateway.
 
 The `cdk.json` file tells the CDK Toolkit how to execute your app.
 
-## Getting started
+## Getting Started
 
 The following global installations are required:
 
@@ -21,7 +21,7 @@ Run the following commands:
 
 You can now use an HTTP client to make a GET request to http://localhost:3000/users to retrieve a list of users.
 
-## Other useful commands
+## Other Useful Commands
 
  * `$ npm run build`   compile typescript to js
  * `$ npm run watch`   watch for changes and compile
