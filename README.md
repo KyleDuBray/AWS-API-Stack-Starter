@@ -1,8 +1,6 @@
 # AWS CDK API Gateway Boilerplate with TypeScript
 
-This is a project for TypeScript development with AWS CDK and SAM. It contains boilerplate for an API gateway.
-
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
+This is a project for TypeScript development with AWS CDK and SAM. The API gateway was bootstrapped with `$ cdk init --language typescript` and a Lambda with a /users route was added.
 
 ## Getting Started
 
@@ -18,15 +16,13 @@ Run the following commands:
 * `$ npm install` to install project dependencies
 * `$ cdk synth`  to emit the synthesized CloudFormation template
 * `$ sam local start-api -t ./cdk.out/APIStack.template.json` to run the API gateway locally
+
+The `cdk.json` file tells the CDK Toolkit how to execute your app. You can now use an HTTP client to make a GET request to http://localhost:3000/users to retrieve a list of users.
  
-NOTE: On Windows, depending on your shell, you may have to use the full path.
- 
-Consider adding to your `.bashrc`:
+NOTE: On Windows, depending on your shell, you may have to use the full path. Consider adding to your `.bashrc`:
  ```
 alias sam="/c/Program\ Files/Amazon/AWSSAMCLI/bin/sam.cmd"
 ```
-
-You can now use an HTTP client to make a GET request to http://localhost:3000/users to retrieve a list of users.
 
 ## Other Useful Commands
 
